@@ -1,0 +1,114 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 5px;
+}
+
+/* Global styles */
+body {
+    background-image: url(sharwama.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+header {
+    /* background-image: url(waffles.jpeg); */
+    background-color: #32730f;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    background-image: url();
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    float: left;
+    width: 70%;
+}
+
+main section {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+main section h2 {
+    margin-bottom: 15px;
+}
+
+.main section p {
+    margin-bottom: 15px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+aside {
+    float: right;
+    width: 30%;
+}
+
+.health-tip {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.health-tip h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    clear: both;
+}
